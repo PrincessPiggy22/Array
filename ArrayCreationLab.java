@@ -20,10 +20,10 @@ import java.util.Scanner;
 public class ArrayCreationLab {
 
     // Part 1
-   public static void DeclareFirst(){
-       int[] frstDeclare;
-       frstDeclare = new int[5];
-       System.out.println("Array length: " + frstDeclare.length);
+   public static void declareFirst(){
+       int[] firstDeclare;
+       firstDeclare = new int[5];
+       System.out.println("Array length: " + firstDeclare.length);
    }
 
    // Part 2
@@ -72,7 +72,7 @@ public class ArrayCreationLab {
 
 
     public static void main(String[] args) {
-        DeclareFirst();
+        declareFirst();
         System.out.println("");
 
         oneLine();
